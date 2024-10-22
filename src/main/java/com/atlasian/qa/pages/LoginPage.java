@@ -10,6 +10,7 @@ import com.atlasian.qa.testbase.TestBase;
 
 public class LoginPage extends TestBase {
 
+	//pagefactory
 @FindBy(id="username")
 WebElement username;
 
