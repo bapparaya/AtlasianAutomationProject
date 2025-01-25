@@ -12,8 +12,8 @@ public class LoginPage extends TestBase {
 
 	/*
 	 * This code is added to habdle conflicts 
-	 * This code is added to habdle conflicts
-	 * This code is added to habdle conflicts
+	 * This code is added by bryan wills to take care of login page
+	 * This code is added to habdle conflicts part login page class
 	 */
 	//pagefactory
 @FindBy(id="username")
