@@ -10,6 +10,11 @@ import com.atlasian.qa.testbase.TestBase;
 
 public class LoginPage extends TestBase {
 
+	/*
+	 * This code is added to habdle conflicts 
+	 * This code is added to habdle conflicts
+	 * This code is added to habdle conflicts
+	 */
 	//pagefactory
 @FindBy(id="username")
 WebElement username;

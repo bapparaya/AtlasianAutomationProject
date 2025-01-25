@@ -19,7 +19,8 @@ public class TestBase {
 		
 		try {
 			prop = new Properties();
-			FileInputStream ip = new FileInputStream("E:\\B1java\\AltasianTest\\src\\main\\java\\com\\atlasian\\qa\\config\\config.properties");
+			//("user.dir") + "/resources/testdata.csv"
+			FileInputStream ip = new FileInputStream(("user.dir")+ "AltasianTest\\src\\main\\java\\com\\atlasian\\qa\\config\\config.properties");
 			prop.load(ip);
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
