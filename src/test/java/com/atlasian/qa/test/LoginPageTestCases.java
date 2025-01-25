@@ -8,6 +8,11 @@ import com.atlasian.qa.pages.HomePage;
 import com.atlasian.qa.pages.LoginPage;
 import com.atlasian.qa.testbase.TestBase;
 //bapparaya 12311
+/*
+ * This code is added to habdle conflicts 
+ * This class is created by bapparaya to add login page testcases
+ * This code is added to habdle conflicts part 2
+ */
 public class LoginPageTestCases extends TestBase {
      LoginPage loginpage;
      HomePage homepage;
