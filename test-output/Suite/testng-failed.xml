@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <listeners>
-    <listener class-name="com.qa.testng.Mylistner"/>
-  </listeners>
   <test name="Test">
     <classes>
-      <class name="com.qa.testng.Listners"/>
+      <class name="testngfailedcases.Failedtestcases"/>
     </classes>
   </test> <!-- Test -->
   <test name="Test(failed)">
     <classes>
-      <class name="com.qa.testng.Listners">
+      <class name="testngfailedcases.Failedtestcases">
         <methods>
-          <include name="login"/>
           <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="verifyDashbpard"/>
+          <include name="setUP"/>
+          <include name="verifyHomepage"/>
         </methods>
-      </class> <!-- com.qa.testng.Listners -->
+      </class> <!-- testngfailedcases.Failedtestcases -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
